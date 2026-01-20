@@ -78,7 +78,7 @@ export const HeroSection = () => {
               </Button>
             </Link>
             <a
-              href={`https://wa.me/+923419874635?text=${encodeURIComponent("Hi VTech Limited, I'm interested in your services.")}`}
+              href={`https://wa.me/+923129562020?text=${encodeURIComponent("Hi VTech Limited, I'm interested in your services.")}`}
               target="_blank"
               rel="noopener noreferrer"
             >

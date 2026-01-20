@@ -94,15 +94,15 @@ export const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center gap-2 text-muted-foreground">
                 <Mail className="w-4 h-4 text-primary" />
-                <span>contact@vtech.com</span>
+                <span>contact@vtechlimited.com</span>
               </li>
               <li className="flex items-center gap-2 text-muted-foreground">
                 <Phone className="w-4 h-4 text-primary" />
-                <span>+1 (555) 123-4567</span>
+                <span>+92 3129562020</span>
               </li>
               <li className="flex items-start gap-2 text-muted-foreground">
                 <MapPin className="w-4 h-4 text-primary mt-1" />
-                <span>123 Tech Street, Silicon Valley, CA 94000</span>
+                <span>Sector G11, Islamabad Pakistan</span>
               </li>
             </ul>
           </div>

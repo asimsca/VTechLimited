@@ -137,8 +137,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-foreground mb-1">Email Us</h3>
-                    <p className="text-muted-foreground">contact@vtech.com</p>
-                    <p className="text-muted-foreground">support@vtech.com</p>
+                    <p className="text-muted-foreground">contact@vtechlimited.com</p>
                   </div>
                 </div>
 
@@ -148,8 +147,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-foreground mb-1">Call Us</h3>
-                    <p className="text-muted-foreground">+1 (555) 123-4567</p>
-                    <p className="text-muted-foreground">+1 (555) 987-6543</p>
+                    <p className="text-muted-foreground">+92 3129562020</p>
                   </div>
                 </div>
 
@@ -160,8 +158,7 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold text-foreground mb-1">Visit Us</h3>
                     <p className="text-muted-foreground">
-                      123 Tech Street, Suite 100<br />
-                      Silicon Valley, CA 94000
+                      Sector G11, Islamabad Pakistan
                     </p>
                   </div>
                 </div>
@@ -191,7 +188,7 @@ const Contact = () => {
                     <p className="text-muted-foreground text-sm">Quick response guaranteed</p>
                   </div>
                   <a
-                    href={`https://wa.me/+923419874635?text=${encodeURIComponent("Hi VTech Limited, I'm interested in your services.")}`}
+                    href={`https://wa.me/+923129562020?text=${encodeURIComponent("Hi VTech Limited, I'm interested in your services.")}`}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -267,7 +264,7 @@ const Contact = () => {
                           type="email"
                           value={formData.email}
                           onChange={handleChange}
-                          placeholder="john@example.com"
+                          placeholder="jDoe@example.com"
                           className={errors.email ? 'border-destructive' : ''}
                         />
                         {errors.email && (
@@ -286,7 +283,7 @@ const Contact = () => {
                           name="phone"
                           value={formData.phone}
                           onChange={handleChange}
-                          placeholder="+1 (555) 000-0000"
+                          placeholder="+92 3456687666"
                         />
                       </div>
                       <div>
