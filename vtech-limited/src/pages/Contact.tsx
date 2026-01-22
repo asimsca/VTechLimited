@@ -198,9 +198,18 @@ const Contact = () => {
               </div>
 
               {/* Map Placeholder */}
-              <div className="mt-8 aspect-video rounded-2xl bg-muted border border-border flex items-center justify-center">
+              {/* <div className="mt-8 aspect-video rounded-2xl bg-muted border border-border flex items-center justify-center">
                 <MapPin className="w-12 h-12 text-muted-foreground/50" />
-              </div>
+              </div> */}
+              <div className="mt-8 aspect-video rounded-2xl overflow-hidden border border-border">
+  <iframe
+    title="VTech Limited Location - G-11 Markaz Islamabad"
+    src="https://www.google.com/maps?q=G-11%20Markaz%20Islamabad&output=embed"
+    className="w-full h-full"
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+  />
+</div>
             </motion.div>
 
             {/* Contact Form */}
